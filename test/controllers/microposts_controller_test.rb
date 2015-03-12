@@ -5,10 +5,6 @@ class MicropostsControllerTest < ActionController::TestCase
     @micropost = microposts(:one)
   end
 
-  test "should fail" do
-    assert false
-  end
-
   test "should get index" do
     get :index
     assert_response :success
